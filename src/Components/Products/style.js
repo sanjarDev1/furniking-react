@@ -4,7 +4,8 @@ import { ReactComponent as Star } from '../../assets/Prooducts/ratings.svg';
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 100%;
+  margin-bottom: 120px;
 `;
 
 /*-------- TEXT STYLES -----  */
@@ -57,6 +58,8 @@ export const Card = styled.div`
 `;
 Card.IMG = styled.img`
   margin-bottom: 15px;
+  width: 269.03px;
+  height: 287.82px;
 `;
 
 export const CardText = styled.div`
@@ -117,9 +120,64 @@ Card.Star = styled(Star)`
 `;
 
 Card.CardContainer = styled.div`
-width: 100%;
-display: flex;
-align-items: center;
-gap: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+`;
 
-`
+export const Buttons = styled.div`
+  display: flex;
+  width: 50%;
+  float: right;
+  margin-left: 50%;
+  justify-content: space-between;
+`;
+
+Buttons.BigButton = styled.div`
+  width: 161px;
+  height: 44px;
+  background: #7ac751;
+  border-radius: 2px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+Buttons.BtnWrapper = styled.div`
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+`;
+
+Buttons.Button1 = styled.button`
+  width: 58px;
+  height: 29px;
+  background: #f8fafb;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+`;
+
+Buttons.Button2 = styled.button`
+  width: 58px;
+  height: 29px;
+  background: #7ac751;
+  border-radius: 2px;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 600;
+`;
+
+Buttons.Label = styled.div`
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.008em;
+  color: #757575;
+`;

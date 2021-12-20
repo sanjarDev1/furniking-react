@@ -112,7 +112,7 @@ export default class Products extends Component {
             </CardText>
           </Card>
           <Card>
-            <Card.IMG src={Chair8}></Card.IMG>
+            <Card.IMG src={Chair8} ></Card.IMG>
             <CardText>
               <Card.Name>Chair</Card.Name>
               <Card.Feature>Elegent wood chair</Card.Feature>

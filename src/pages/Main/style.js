@@ -14,3 +14,7 @@ Wrapper.Section = styled.div`
   display: flex;
   width: 100%;
 `;
+
+// Wrapper.Hr = styled.hr`
+// width: 100%;
+// `

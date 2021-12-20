@@ -5,7 +5,7 @@ import img2 from '../../assets/Offer/img2.png';
 export const Wrap = styled.div`
   width: 100%;
   height: 354px;
-  margin-top: 100px;
+  margin-bottom: 100px;
 `;
 
 Wrap.Title = styled.div`

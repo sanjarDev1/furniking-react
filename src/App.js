@@ -5,6 +5,7 @@ const App = () => {
   return (
     <div>
       <Main />
+      <hr className='har' />
     </div>
   );
 };

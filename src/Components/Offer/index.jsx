@@ -51,7 +51,7 @@ class index extends Component {
               </Wrap.Price>
               <Wrap.Circle>
                 <Wrap.CircleChild>
-                  <Wrap.CircleText>15</Wrap.CircleText>
+                  <Wrap.CircleText>15</Wrap.CircleText> 
                   <Wrap.CircleText small>Days</Wrap.CircleText>
                 </Wrap.CircleChild>
                 <Wrap.CircleChild>

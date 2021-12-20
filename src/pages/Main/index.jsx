@@ -6,8 +6,10 @@ import Section from '../../Components/Sections';
 import Feature from '../../Components/Features';
 import ContentContainer from '../../Components/Collections';
 import Products from '../../Components/Products';
-import Contents from '../../Components/Contents';
-import Offer from '../../Components/Offer';
+import Contents from '../../Components/Contents'
+import Products2 from '../../Components/Products/Products2';
+import Offer from '../../Components/Offer'
+import Footer from "../../Components/Footer"
 export default class index extends Component {
   render() {
     return (
@@ -21,7 +23,9 @@ export default class index extends Component {
         <Feature />
         <ContentContainer />
         <Products />
-        <Offer />
+        <Offer/>
+        <Products2/>
+        <Footer />
       </Wrapper>
     );
   }

@@ -44,3 +44,5 @@ Text.Value = styled.div`
   align-items: center;
   color: #515151b5;
 `;
+
+
