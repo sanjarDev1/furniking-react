@@ -17,7 +17,6 @@ export const Text = styled.div`
 `;
 
 Text.Title = styled.div`
-  font-weight: bold;
   font-size: 36px;
   line-height: 45px;
   text-transform: uppercase;

@@ -6,10 +6,13 @@ import Section from '../../Components/Sections';
 import Feature from '../../Components/Features';
 import ContentContainer from '../../Components/Collections';
 import Products from '../../Components/Products';
-import Contents from '../../Components/Contents'
+import Contents from '../../Components/Contents';
 import Products2 from '../../Components/Products/Products2';
-import Offer from '../../Components/Offer'
-import Footer from "../../Components/Footer"
+import Offer from '../../Components/Offer';
+import Customers from '../../Components/Customers';
+import Articles from '../../Components/Articles'
+import Footer from '../../Components/Footer'
+
 export default class index extends Component {
   render() {
     return (
@@ -18,14 +21,16 @@ export default class index extends Component {
         <SubNav />
         <Wrapper.Section>
           <Section />
-        <Contents />
+          <Contents />
         </Wrapper.Section>
         <Feature />
         <ContentContainer />
         <Products />
-        <Offer/>
-        <Products2/>
-        <Footer />
+        <Offer />
+        <Products2 />
+        <Customers />
+        <Articles />
+        <Footer/>
       </Wrapper>
     );
   }

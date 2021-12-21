@@ -6,6 +6,7 @@ export const Wrap = styled.div`
   width: 100%;
   height: 354px;
   margin-bottom: 100px;
+  font-weight: 500;
 `;
 
 Wrap.Title = styled.div`
@@ -51,49 +52,47 @@ Wrap.Price = styled.div`
   display: flex;
   align-items: center;
   margin-top: 20px;
-
 `;
 
 Wrap.PriceText = styled.div`
-color:  ${({through})=>through ? "#CCCCCC" : "#7AC751"};
-font-size: 20px;
-font-weight: 500;
-margin-left: ${({through})=>through && "12px"};
-text-decoration: ${({through})=>through && "line-through"} ;
+  color: ${({ through }) => (through ? '#CCCCCC' : '#7AC751')};
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: ${({ through }) => through && '12px'};
+  text-decoration: ${({ through }) => through && 'line-through'};
 `;
 
 Wrap.Btn = styled.button`
-width: 91px;
-height: 26px;
-color: white;
-background-color: #7AC751;
-padding: 5px ;
-border: none;
-border-radius: 2px;
-margin-left: 29px;
+  width: 91px;
+  height: 26px;
+  color: white;
+  background-color: #7ac751;
+  padding: 5px;
+  border: none;
+  border-radius: 2px;
+  margin-left: 29px;
 `;
 
 Wrap.Circle = styled.div`
-display: flex;
-gap:17px;
+  display: flex;
+  gap: 17px;
 `;
 
 Wrap.CircleChild = styled.div`
-width: 43px;
-height: 43px;
-border-radius: 50%;
-margin-top: 31px;
-background-color: #7AC751;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  margin-top: 31px;
+  background-color: #7ac751;
 `;
 
 Wrap.CircleText = styled.div`
-margin:  auto;
-margin-top: ${({small})=>small ? "0px": "7px"};
+  margin: auto;
+  margin-top: ${({ small }) => (small ? '0px' : '7px')};
 
-font-size:${({small})=>small ? "10px": "15px"};
-color: white;
-display: flex;
-justify-content: center;
-align-items: center;
-
+  font-size: ${({ small }) => (small ? '10px' : '15px')};
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;

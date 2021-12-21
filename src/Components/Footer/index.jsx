@@ -20,33 +20,33 @@ export default class index extends Component {
         </Wrap.Logo>
         <Wrap.Link>
           <Wrap.Container>
-            <Wrap.H1>
-            Help 
-            </Wrap.H1>
-                <Wrap.P>
-          Privacy Policy <br />
-          Shipping  Delivery  <br />
-          Refund Policy <br />
-          Track Your  Order
-          </Wrap.P>
+            <Wrap.H1>Help</Wrap.H1>
+            <Wrap.P>
+              Privacy Policy <br />
+              Shipping Delivery <br />
+              Refund Policy <br />
+              Track Your Order
+            </Wrap.P>
           </Wrap.Container>
           <Wrap.Container>
             <Wrap.H1>Store</Wrap.H1>
             <Wrap.P>
-                Furniture <br />
-                Tabble<br />
-                Sofa<br />
-                Other
-          </Wrap.P>
+              Furniture <br />
+              Tabble
+              <br />
+              Sofa
+              <br />
+              Other
+            </Wrap.P>
           </Wrap.Container>
           <Wrap.Container>
             <Wrap.H1>Supports</Wrap.H1>
-          <Wrap.P>
-                Feedbcak <br />
-                Contact us <br /> 
-                Download app <br />
-                Terms conditins
-          </Wrap.P>
+            <Wrap.P>
+              Feedbcak <br />
+              Contact us <br />
+              Download app <br />
+              Terms conditins
+            </Wrap.P>
           </Wrap.Container>
         </Wrap.Link>
       </Wrap>

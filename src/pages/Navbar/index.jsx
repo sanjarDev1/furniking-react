@@ -6,7 +6,6 @@ export default class index extends Component {
     return (
       <div>
         <Navbar />
-        
       </div>
     );
   }

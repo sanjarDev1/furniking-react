@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import { ReactComponent as Chair } from '../../assets/section/Furniture 1.svg';
-
 export const ChairWrapper = styled.div`
   width: 98px;
   height: 92px;
@@ -45,7 +43,7 @@ ChairWrapper.Title = styled.div`
   padding-top: 19px;
 `;
 
-export const Sofa = styled(Chair)`
+export const Sofa = styled.div`
   width: 374px;
   height: 374px;
 `;

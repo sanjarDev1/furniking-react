@@ -1,12 +1,14 @@
-import React, { Component } from "react";
-import { Wrap, Sofa, ChairWrapper } from "./style";
-import Chair3 from "../../assets/section/Rectangle3.png";
-import Chair1 from "../../assets/section/Rectangle1.png";
-import Chair2 from "../../assets/section/Rectangle 2.png";
+import React, { useState } from "react";
+import { Wrap,  ChairWrapper } from "./style";
+import Data from "./mock/data.js"
+import img1 from "../../assets/section/Rectangle1.png";
+import img2 from "../../assets/section/Rectangle2.png";
+import img3 from "../../assets/section/Rectangle3.png";
+const Style = () => {
+  
+  const [state, setState] = useState(0);
 
-class index extends Component {
-  render() {
-    return (
+  return (
       <Wrap>
         <Wrap.Container>
           <Wrap.ContainerWrap>
@@ -16,26 +18,28 @@ class index extends Component {
             <Wrap.Btn>SHOP NOW</Wrap.Btn>
           </Wrap.ContainerWrap>
           <Wrap.ContainerWrap>
-            <Sofa></Sofa>
+            
+              <img style={{  width: "354px", cursor: 'pointer'}} src={Data[state] } alt="" />
+
           </Wrap.ContainerWrap>
           <Wrap.ContainerWrap column>
             <ChairWrapper>
               <ChairWrapper.ImgWrap>
-                <img src={Chair1} alt="" />
+                <img src={img1} style={{ cursor: 'pointer'}} onClick={()=>setState(1)} alt="" />
               </ChairWrapper.ImgWrap>
               <ChairWrapper.Title>Office Desk Chair</ChairWrapper.Title>
               <ChairWrapper.Cost>$120</ChairWrapper.Cost>
             </ChairWrapper>
             <ChairWrapper>
               <ChairWrapper.ImgWrap>
-                <img src={Chair2} alt="" />
+                <img src={img2} style={{ cursor: 'pointer'}} onClick={()=>setState(2)} alt="" />
               </ChairWrapper.ImgWrap>
               <ChairWrapper.Cost>$180</ChairWrapper.Cost>
               <ChairWrapper.Title>Home Alisa Sofa</ChairWrapper.Title>
             </ChairWrapper>
             <ChairWrapper>
-              <ChairWrapper.ImgWrap>
-                <img src={Chair3} alt="" />
+              <ChairWrapper.ImgWrap >
+                <img src={img3} style={{ cursor: 'pointer'}} onClick={()=>setState(3)} alt="" />
               </ChairWrapper.ImgWrap>
               <ChairWrapper.Title>Modern Chair</ChairWrapper.Title>
               <ChairWrapper.Cost>$250</ChairWrapper.Cost>
@@ -45,6 +49,6 @@ class index extends Component {
       </Wrap>
     );
   }
-}
 
-export default index;
+
+export default Style;
