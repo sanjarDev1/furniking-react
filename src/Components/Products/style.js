@@ -180,3 +180,24 @@ Buttons.Label = styled.div`
   letter-spacing: 0.008em;
   color: #757575;
 `;
+
+
+Card.Hovered = styled.div`
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+  display: none;
+`
+
+Card.ImgWrap = styled.div`
+margin-bottom: 15px;
+   width: 269.03px;
+  height: 287.82px;
+  background-color: #E5E5E5;
+  display: flex;
+  position: relative;
+  :hover .active{
+    display: block;
+  }
+  
+`
